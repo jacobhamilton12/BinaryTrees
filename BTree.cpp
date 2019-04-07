@@ -187,13 +187,6 @@ Node* BTree::searchHelp(int obj, Node* node){
   return nullptr;
 }
 
-void BTree::update_search_cost()
-{
-  /*
-    do a BFS of your tree and update the search cost of all nodes
-  */
-}
-
 void BTree::inorder(ostream& out, Node* node)
 {
   /*

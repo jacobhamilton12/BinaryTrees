@@ -51,7 +51,6 @@ public:
   Node* insertReal(int obj, Node* node);
   Node* search(int obj);
   Node* searchHelp(int obj, Node* node);
-  void update_search_cost();
   void inorder(ostream& out, Node* node);
   void print_level_by_level(ostream& out);
 
